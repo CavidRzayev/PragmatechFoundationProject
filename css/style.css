@@ -1,0 +1,262 @@
+body {
+  background: #E1DCC5;
+  margin: 0;
+}
+
+#header {
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+  height: 300px;
+  left: 300px;
+}
+
+.menubox {
+  position: absolute;
+  top: 0px;
+  left: 316px;
+  width: 2000px;
+  height: 250px;
+  border: 1 px solid black;
+}
+
+img {
+  position: absolute;
+  top: 64px;
+  left: 50px;
+  width: 358px;
+  height: 128px;
+}
+
+.menucate {
+  width: 100px;
+  height: 60px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 36px;
+  width: 400px;
+  height: 90px;
+  margin-left: 40px;
+  position: absolute;
+  left: 414px;
+  top: 75px;
+  list-style-type: none;
+}
+
+.browse {
+  color: red;
+}
+
+.log {
+  position: relative;
+  left: 1250px;
+  top: 74px;
+}
+
+.signup {
+  height: 40px;
+  border: none;
+  background-color: #0376b8;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+.container {
+  padding-top: 160px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: 350px;
+  margin-top: 30px;
+  width: 2000px;
+  background: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid #BABBAE;
+  row-gap: 120px;
+  position: absolute;
+}
+
+.row-item {
+  position: relative;
+  display: inline-block;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid green;
+  background-color: #F3EDD7;
+  height: 556px;
+}
+
+.romans {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 550px;
+  width: 1997px;
+}
+
+.kids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 550px;
+  width: 1997px;
+}
+
+.sfic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 550px;
+  width: 1997px;
+}
+
+.bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 550px;
+  width: 1997px;
+}
+
+.art {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 550px;
+  width: 1997px;
+}
+
+.imgbook {
+  position: static;
+  height: auto;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 465px;
+  width: 270px;
+  border: 1px solid green;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.btn {
+  margin-left: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900 px;
+  height: 58 px;
+  position: absolute;
+  top: 480px;
+  width: 1938px;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.button {
+  margin-right: 44px;
+  font-size: 30px;
+  color: #fff;
+  width: 172px;
+  display: block;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  padding: 7px;
+  white-space: nowrap;
+  background-color: #999;
+  line-height: 1.5em;
+  text-decoration: none;
+  background-color: #0376B8;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+}
+
+.rowicons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1700px;
+  height: 150px;
+  margin-left: 160px;
+}
+
+.columnicons {
+  display: block;
+  height: 135px;
+  width: 189px;
+}
+
+.iconspics {
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 76px;
+  height: 66px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.icontextart {
+  font-size: x-large;
+  position: relative;
+  left: 18px;
+}
+
+.icontextrom {
+  font-size: x-large;
+  position: relative;
+  left: -3px;
+}
+
+.icontextbio {
+  font-size: x-large;
+  position: relative;
+  left: -12px;
+}
+
+.icontextkids {
+  font-size: x-large;
+  position: relative;
+  left: 15px;
+}
+
+.icontextscf {
+  font-size: x-large;
+  position: relative;
+  right: 27px;
+}
+/*# sourceMappingURL=style.css.map */
