@@ -6,9 +6,9 @@ body{
   
  position:relative;
  margin:0px auto;
- width: 100%;
- height: 300px;
- left: 300px;
+ width: 50%;
+ height: 150px;
+ left: 150px;
 
  
 }
@@ -16,37 +16,37 @@ body{
 .menubox{
   position:absolute;
   top:0px;
-  left:316px;
-  width:2000px;
-  height: 250px;
+  left:158px;
+  width:1000px;
+  height: 125px;
   border:1 px solid black
   
 }
 
 img{
    position: absolute;
-    top: 64px;
-    left: 50px;
-    width: 358px;
-    height: 128px;
+    top: 37px;
+    left: 25px;
+    width: 179px;
+    height: 64px;
 }
 
 
 .menucate{
-  width:100px;
-  height:60px;
+  widows: 50px;
+  height:30px;
 
 }
 ul{
   display:flex;
   justify-content: space-between;
-  font-size:36px;
-  width:400px;
-  height:90px;
-  margin-left:40px;
+  font-size:18px;
+  width:200px;
+  height:45px;
+  margin-left:20px;
   position:absolute;
-  left:414px;
-  top:75px;
+  left:207px;
+  top:32.5px;
   list-style-type: none;
 }
 
@@ -63,16 +63,16 @@ ul{
 .log{
  
   position:relative;
-  left:1250px;
-  top:74px;
+  left:625px;
+  top:37px;
 }
   
   .signup{
-    height:40px;
+    height:20px;
     border: none;
     background-color: #0376b8;
     color: #fff!important;
-    border-radius: 5px;
+    border-radius: 2.5px;
     
  }
   
@@ -82,15 +82,15 @@ ul{
 
 
 .container{
-  padding-top:160px;
+  padding-top:80px;
   display:grid;
-  margin-left:350px;
-  margin-top:30px;
-  width:2000px;
+  margin-left:175px;
+  margin-top:15px;
+  width:1000px;
   background:white;
   height:fit-content;
   border:1px solid #BABBAE;
-  row-gap:120px;
+  row-gap:60px;
   position:absolute;
   
 }
@@ -100,7 +100,7 @@ ul{
    justify-content: space-around;
    border:1px solid green;
    background-color:#F3EDD7;
-   height: 556px;
+   height: 278px;
   
   
 }
@@ -109,35 +109,35 @@ ul{
   position:absolute;
   display:flex;
   justify-content: space-around;
-  height: 550px;
-  width:1997px;
+  height: 225px;
+  width:998.5px;
 }
 .kids{
   display:flex;
   justify-content: space-around;
-  height: 550px;
-  width:1997px;
+  height: 275px;
+  width:998.5px;
 }
 
 .sfic{
   display:flex;
   justify-content: space-around;
-  height: 550px;
-  width:1997px;
+  height: 275px;
+  width:998.5px;
 }
 
 .bio{
   display:flex;
   justify-content: space-around;
-  height: 550px;
-  width:1997px;
+  height: 275px;
+  width:998.5px;
 }
 
 .art{
   display:flex;
   justify-content: space-around;
-  height: 550px;
-  width:1997px;
+  height: 275px;
+  width:998.5px;
 }
 .imgbook{
    position: static;
@@ -146,21 +146,21 @@ ul{
  .column{
   display:flex;
   justify-content: space-between;
-  height:465px;
-  width: 270px;
+  height:232.5px;
+  width: 135px;
   border:1px solid green;
-  column-gap:50px;
+  column-gap:25px;
 }
 
 .btn{
-margin-left: 58px;
+margin-left: 29px;
 display:flex;
-width:900 px;
-height:58 px;
+width:450 px;
+height:29 px;
 
 position: absolute;
-top: 480px;
-width: 1938px;
+top: 290px;
+width: 969px;
 display: flex;
 justify-content: space-around;
 }
@@ -168,21 +168,21 @@ justify-content: space-around;
               
 
 .button{
-  margin-right: 44px;
-  font-size: 30px;
+  margin-right: 22px;
+  font-size: 15px;
     color: #fff;
-    width: 172px;
+    width: 86px;
     display: block;
     border: 0;
-    border-radius: 5px;
-    margin-top: 5px;
+    border-radius: 2.5px;
+    margin-top: 2.5px;
     box-sizing: border-box;
     cursor: pointer;
     text-align: center;
-    padding: 7px;
+    padding: 3.5px;
     white-space: nowrap;
     background-color: #999;
-    line-height: 1.5em;
+    line-height: 0.1em;  //2em
     text-decoration: none;
   	background-color:#0376B8;
     transition: background-color .2s;
@@ -193,16 +193,16 @@ justify-content: space-around;
 .rowicons{
   display:flex;
   justify-content: space-around;
-  width: 1700px;
-  height:150px;
-  margin-left:160px;
+  width: 850px;
+  height:75px;
+  margin-left:80px;
   
  
 }
 .columnicons{
   display:block;
-  height: 135px;
-   width: 189px;
+  height: 67.5px;
+   width: 94.5px;
   
 
 }
@@ -210,37 +210,37 @@ justify-content: space-around;
 .iconspics{
       position: static;
       display: flex;
-      width: 76px;
-      height: 66px;
+      width: 39px;
+      height: 33px;
       filter: grayscale(100%);
 }
 
 .icontextart{
   font-size: x-large;
   position: relative;
-  left: 18px;
+  left: 9px;
 }
 .icontextrom{
   font-size: x-large;
-    position: relative;
-    left: -3px;
+   position: relative;
+   left: -1.5px;
 }
 
 .icontextbio{
   font-size: x-large;
-      position: relative;
-      left: -12px;
+  position: relative;
+  left: -6px;
 }
 
 .icontextkids{
   font-size: x-large;
   position: relative;
-left: 15px;
+  left: 7.5px;
 }
 
 .icontextscf{
   font-size: x-large;
   position: relative;
-  right: 27px;
+  right: 13.5px;
 }
 
