@@ -1,5 +1,5 @@
-body{
-  background: #E1DCC5;
+.body{
+  background:#E1DCC5;
   margin: 0;
  }
 #header{
@@ -23,7 +23,7 @@ body{
   
 }
 
-img{
+.img{
    position: absolute;
     top: 37px;
     left: 25px;
@@ -62,9 +62,10 @@ ul{
 
 .log{
  
-  position:relative;
-  left:625px;
-  top:37px;
+  position: relative;
+  left: 1106px;
+  top: 43px;
+  border:1px solid red;
 }
   
   .signup{
@@ -208,6 +209,7 @@ justify-content: space-around;
 }
 
 .iconspics{
+      border-top:1px solid grey;
       position: static;
       display: flex;
       width: 39px;
