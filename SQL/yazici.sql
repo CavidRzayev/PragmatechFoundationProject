@@ -4,5 +4,5 @@ CREATE TABLE yazici(
     PRIMARY KEY(adsoyad)
 );
 
-INSERT INTO yazici (adsoyad,elaqMail)
+INSERT INTO yazici (adsoyad,elaqeMail)
 VALUES ("Cingiz Abdullayev","cingizabdullayev@gmail.com" );

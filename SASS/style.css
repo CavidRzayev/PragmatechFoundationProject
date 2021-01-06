@@ -23,7 +23,7 @@ body {
 img {
   position: absolute;
   top: 37px;
-  left: 25px;
+  left: -211px;
   width: 179px;
   height: 64px;
 }
@@ -41,23 +41,40 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 18px;
-  width: 200px;
+  width: 210px;
   height: 45px;
   margin-left: 20px;
   position: absolute;
-  left: 207px;
-  top: 32.5px;
+  left: -45px;
+  top: 43.5px;
   list-style-type: none;
+  
+}
+
+.li{
+  padding-right:20px;
 }
 
 .browse {
   color: red;
+  padding-right:18px;
+  
+  
 }
+
+.mybooks{
+  padding-right:16px;
+  font-size:17.6px;
+}
+
+
+
 
 .log {
   position: relative;
-  left: 625px;
-  top: 37px;
+  left: 293px;
+  top:  6.5px;
+  width:140px;
 }
 
 .signup {
@@ -224,39 +241,45 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 39px;
-  height: 33px;
+  width: 30px;
+  height: 27px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
 
 .icontextart {
-  font-size: x-large;
+  font-size: larger;
   position: relative;
-  left: 9px;
+  left: 2px;
 }
 
 .icontextrom {
-  font-size: x-large;
+  font-size: larger;
   position: relative;
-  left: -1.5px;
+  left: -20.5px;
 }
 
 .icontextbio {
-  font-size: x-large;
+  font-size: larger;
   position: relative;
-  left: -6px;
+  left: -25px;
 }
 
 .icontextkids {
-  font-size: x-large;
+  font-size: larger;
   position: relative;
-  left: 7.5px;
+  left: -0.5px;
 }
 
 .icontextscf {
-  font-size: x-large;
+  font-size: larger;
   position: relative;
-  right: 13.5px;
+  right: 11.5px;
 }
+.search{
+  position: relative;
+  left: 113px;
+  top: 48px;
+}
+
 /*# sourceMappingURL=style.css.map */
