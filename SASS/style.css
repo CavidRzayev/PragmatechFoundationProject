@@ -94,7 +94,7 @@ ul {
   display: grid;
   margin-left: 175px;
   margin-top: 15px;
-  width: 1037px;
+  width: 1070px;
   background: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -116,6 +116,7 @@ ul {
 
 .romans {
   position: absolute;
+  left: 28px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,12 +125,15 @@ ul {
   height: 225px;
   width: 998.5px;
   margin-top: 18px;
+  
 }
 
 .kids {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  left: 28px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 275px;
@@ -138,9 +142,11 @@ ul {
 }
 
 .sfic {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  left: 28px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 275px;
@@ -149,9 +155,11 @@ ul {
 }
 
 .bio {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  left: 28px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 275px;
@@ -160,9 +168,11 @@ ul {
 }
 
 .art {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  left: 28px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 275px;
@@ -191,7 +201,7 @@ ul {
 
 .btn {
   display:flex;
-  margin-left: 42px;
+  margin-left: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
