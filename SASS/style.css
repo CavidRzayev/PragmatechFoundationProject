@@ -123,6 +123,7 @@ ul {
       justify-content: space-around;
   height: 225px;
   width: 998.5px;
+  margin-top: 18px;
 }
 
 .kids {
@@ -133,6 +134,7 @@ ul {
       justify-content: space-around;
   height: 275px;
   width: 998.5px;
+  margin-top: 18px;
 }
 
 .sfic {
@@ -143,6 +145,7 @@ ul {
       justify-content: space-around;
   height: 275px;
   width: 998.5px;
+  margin-top: 18px;
 }
 
 .bio {
@@ -153,6 +156,7 @@ ul {
       justify-content: space-around;
   height: 275px;
   width: 998.5px;
+  margin-top: 18px;
 }
 
 .art {
@@ -163,6 +167,7 @@ ul {
       justify-content: space-around;
   height: 275px;
   width: 998.5px;
+  margin-top: 18px;
 }
 
 .imgbook {
@@ -193,7 +198,7 @@ ul {
   width: 450 px;
   height: 23 px;
   position: absolute;
-  top: 239px;
+  top: 247px;
 }
  .button {
   margin-right: 80px;
