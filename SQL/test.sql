@@ -1,13 +1,11 @@
-CREATE TABLE CUSTOMERS(
-   ID   INT              NOT NULL,
-   NAME VARCHAR (20)     NOT NULL,
-   AGE  INT              NOT NULL,
-   ADDRESS  CHAR (25) ,
-   SALARY   DECIMAL (18, 2),       
-   PRIMARY KEY (ID)
+create table studentss(
+  id integer primary key, 
+  namestudent varchar (50),
+  surname  varchar (50)
+
 );
 
-INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY)
-VALUES (1, 'Ramesh', 32, 'Ahmedabad', 2000.00 );
+insert into studentss (id,namestudent, surname)
+values (1,"Murad","Ebulov");
 
-select * from CUSTOMERS
+select * from studentss

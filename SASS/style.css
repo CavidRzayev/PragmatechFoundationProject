@@ -10,6 +10,9 @@ body {
   height: 150px;
   left: 150px;
 }
+  
+
+  
 
 .menubox {
   position: absolute;
@@ -24,7 +27,7 @@ img {
   position: absolute;
   top: 37px;
   left: -211px;
-  width: 179px;
+  width: 149px;
   height: 64px;
 }
 
@@ -91,7 +94,7 @@ ul {
   display: grid;
   margin-left: 175px;
   margin-top: 15px;
-  width: 1000px;
+  width: 1037px;
   background: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -174,34 +177,31 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 232.5px;
-  width: 135px;
-  border: 1px solid green;
+  height: 224.5px;
+  width: 138px;
+  
   -webkit-column-gap: 25px;
           column-gap: 25px;
 }
 
 .btn {
-  margin-left: 29px;
+  display:flex;
+  margin-left: 42px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 450 px;
-  height: 29 px;
+  height: 23 px;
   position: absolute;
-  top: 290px;
-  width: 969px;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  top: 239px;
 }
-
-.button {
-  margin-right: 22px;
+ .button {
+  margin-right: 80px;
   font-size: 15px;
   color: #fff;
   width: 86px;
   display: block;
+  height:20px;
   border: 0;
   border-radius: 2.5px;
   margin-top: 2.5px;
@@ -209,7 +209,7 @@ ul {
           box-sizing: border-box;
   cursor: pointer;
   text-align: center;
-  padding: 3.5px;
+  padding: 10.5px;
   white-space: nowrap;
   background-color: #999;
   line-height: 0.1em;
@@ -217,6 +217,7 @@ ul {
   background-color: #0376B8;
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
+  
 }
 
 .rowicons {

@@ -2,7 +2,7 @@ CREATE TABLE kitab (
   kitabAdi varchar (30),
   yazici varchar (30),
   nesriyyatEvi (30),
-  sehifeSayi INT
+  sehifeSayi INT,
   PRIMARY KEY(kitabAdi)
 );
 
