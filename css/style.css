@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 a{
-  color:black;
+  color: #4D4B4B;
   text-decoration:none;
 }
 
@@ -79,22 +79,22 @@ ul {
 
 .log {
   position: relative;
-  left: 311px;
+  left: 288px;
   top: 36.5px;
   width:140px;
 }
 
 .signupbutton{
   color:white;
-  height: 22px;
+  height: 24px;
   border: none;
   background-color: #0376B8;
   border-radius: 5.5px;
-  width: 67px;
+  width: 72px;
   padding-top: 2px;
   position: relative;
-  top: -1px;
-  
+  top: -2px;
+  cursor:pointer;
 }
 
 .container {
@@ -306,7 +306,7 @@ ul {
 .search{
   position: absolute;
   left: 30px;
-  top: 38px;
+  top: 39px;
   outline: blue;
   border-radius: 7px;
   padding: 8px;
