@@ -84,13 +84,16 @@ ul {
   width:140px;
 }
 
-.signup {
+.signupbutton{
+  color:white;
   height: 22px;
   border: none;
   background-color: #0376B8;
-  border-radius: 4.5px;
-  width: 64px;
+  border-radius: 5.5px;
+  width: 67px;
   padding-top: 2px;
+  position: relative;
+  top: -1px;
   
 }
 
@@ -313,8 +316,8 @@ ul {
 .searchside{
   
   border-radius: 6px;
-  height: 36px;
-  width: 256px;
+  height: 35px;
+  width: 249px;
   position: relative;
   top: -7px;
   left: -51px;
@@ -322,7 +325,7 @@ ul {
 
 .fa-search:before {
   position: relative;
-  top: -34px;
-  left: 195px;
-  color:#8E8E8E;
+  top: -25px;
+  left: 211px;
+  color: #8E8E8E;
 }
