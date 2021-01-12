@@ -12,7 +12,7 @@ a{
   margin: 0px auto;
   width: 50%;
   height: 150px;
-  left: 150px;
+  left: 125px;
 }
 
 
@@ -79,16 +79,16 @@ ul {
 
 .log {
   position: relative;
-  left: 293px;
-  top:  6.5px;
+  left: 335px;
+  top: 43.5px;
   width:140px;
 }
 
 .signup {
   height: 20px;
   border: none;
-  background-color: #0376b8;
-  color: #fff !important;
+  color:red;
+  background-color: #0376B8;
   border-radius: 2.5px;
 }
 
@@ -296,7 +296,30 @@ ul {
   right: 11.5px;
 }
 .search{
+  position: absolute;
+  left: 73px;
+  top: 45px;
+  outline: blue;
+  border-radius: 7px;
+  padding: 8px;
+  height: 33px;
+  width: 230px;
+  padding-left: 40px
+}
+
+.searchside{
+  
+  border-radius: 6px;
+  height: 36px;
+  width: 256px;
   position: relative;
-  left: 113px;
-  top: 48px;
+  top: -7px;
+  left: -51px;
+}
+
+.fa-search:before {
+  position: relative;
+  top: -34px;
+  left: 195px;
+  color:#8E8E8E;
 }
