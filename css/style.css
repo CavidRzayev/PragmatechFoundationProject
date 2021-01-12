@@ -121,6 +121,8 @@ ul {
       justify-content: space-around;
   background-color: #F3EDD7;
   height: 278px;
+  border: 1px solid #E4E0CC;
+  border-radius: 1px;
 }
 
 .romans {
