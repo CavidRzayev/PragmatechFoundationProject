@@ -52,8 +52,8 @@ ul {
   height: 45px;
   margin-left: 20px;
   position: absolute;
-  left: -45px;
-  top: 43.5px;
+  left: -84px;
+  top: 37.5px;
   list-style-type: none;
 
 }
@@ -79,17 +79,19 @@ ul {
 
 .log {
   position: relative;
-  left: 335px;
-  top: 43.5px;
+  left: 311px;
+  top: 36.5px;
   width:140px;
 }
 
 .signup {
-  height: 20px;
+  height: 22px;
   border: none;
-  color:red;
   background-color: #0376B8;
-  border-radius: 2.5px;
+  border-radius: 4.5px;
+  width: 64px;
+  padding-top: 2px;
+  
 }
 
 .container {
@@ -106,6 +108,7 @@ ul {
   border: 1px solid #BABBAE;
   row-gap: 60px;
   position: absolute;
+  top: 96px
 }
 
 .row-item {
@@ -297,8 +300,8 @@ ul {
 }
 .search{
   position: absolute;
-  left: 73px;
-  top: 45px;
+  left: 30px;
+  top: 38px;
   outline: blue;
   border-radius: 7px;
   padding: 8px;
