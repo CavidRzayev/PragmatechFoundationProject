@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Upload Page</title>
+</head>
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<body>
+
+
+    <div class="containerUpload">
+        <div class="row">
+            <div class="col">
+
+                <h2 class="UploadPageHeader">Upload a book... </h2>
+                <hr>
+
+                <form action="/upload" method='POST' enctype="multipart/form-data">
+
+
+                    <input name="bookName" placeholder="Add book name..">
+
+
+
+                    <br>
+
+                    <input name="author" placeholder="Add author name..">
+
+
+
+                    <br>
+
+                    <input name="genre" placeholder="Add genre of book..">
+
+
+
+                    <br>
+                    <div class="form-group">
+                        <label>Choose the book</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" name="bookpdf" id="book" required>
+
+                        </div>
+                    </div>
+                    <br>
+
+
+
+                    <div class="form-group">
+                        <label>Choose the cover picture of book</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" name="bookCoverpic" id="image">
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <input type="text" placeholder="Add information about book" size="50" name="bookinformation">
+
+
+
+                    <br>
+                    <br>
+
+                    <button type="submit" class="UploadButton">Upload</button>
+
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

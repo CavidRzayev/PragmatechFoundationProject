@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Library</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+    <header id="header">
+        <div class="menubox">
+            <div class="userpartright">
+                <div class="search">
+                    <input type="text" maxlenght="12" placeholder="Search" class="searchbutton" style="height: 30px; width: 230px;">
+
+                    <i class="fas fa-search fa-lg"></i>
+
+                </div>
+
+
+                <ul class="log">
+                    <li class="login"><a href="/login">Log In</a></li>
+                    <form action="/signup" method="get"></form>
+                    <button class="signupbutton"><a href="/signup">Sign Up</a></button>
+                    </form>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <div class="menucate">
+            <ul>
+                <li class="browse"><a href="/upload">Upload Book</a></li>
+                <li class="mybooks"><a href="/allbookslist">Books List</a></li>
+                <li class="more"><a href="/admin">Admin Dashboard</a></li>
+            </ul>
+            <div class="img"></div>
+            <a href="https://www.google.com/"></a><img src="/static/css/images/imm.png"></div>
+
+        </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+    <div class="container">
+        <div class="rowicons">
+
+            <div class="columnicons">
+                <a href="/allbookslist">
+
+                    <img class=iconspics src="/static/css/images/science_fiction.jpg">
+                </a>
+                <p class="icontextscf">Science</p>
+            </div>
+
+
+            <div class="columnicons">
+                <a href="static/PDF/Hard Man (Mills & Boon Romance) ( PDFDrive ).pdf">
+                    <img class=iconspics src="/static/css/images/romance.jpg">
+                </a>
+                <p class="icontextrom">Romance</p>
+            </div>
+            <div class="columnicons">
+                <a href="/adllbookslist">
+                    <img class=iconspics src="/static/css/images/biographies.jpg">
+                </a>
+                <p class="icontextbio">Biographies</p>
+            </div>
+            <div class="columnicons">
+                <a href="static/PDF/The Top 50 Questions Kids Ask (Pre-K through 2nd Grade)_ The Best Answers to the Toughest, Smartest, and Most Awkward Questions Kids Always Ask ( PDFDrive ).pdf">
+
+                    <img class=iconspics src="/static/css/images/children.jpg">
+                </a>
+                <p class="icontextkids">Kids</p>
+            </div>
+            <div class="columnicons">
+                <a href="/allbookslist">
+                    <img class=iconspics src="/static/css/images/art.jpg">
+                </a>
+                <p class="icontextart">Art</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="row-item">
+            <div class="sfic">
+                <div class="column"><img class="imgbook" src="https://i.pinimg.com/originals/0e/4a/3b/0e4a3b402a182777a4b3420efbf64be3.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/bf7/bf72f926d1d746474d4fb8bb3485cf2c.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/829/829426c016a4ed74fa144c70a493f176.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/880/8804f02905f99f57638d7e7853573cdd.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/558/558dd44c614e08fdaed752bb35e28c3b.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/1af/1af3f1cbe06c29843d36b1f53a36b32f.jpg"></div>
+
+            </div>
+            <div class="btn">
+                <div><a href="static/PDF/Brief History Of Time.pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/Cosmos - Carl Sagan.pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/Basic Engineering Mathematics ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/Spoken English_ Flourish Your Language ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/100 Business Ideas.pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/How_Write_Better_Essays.pdf" class="button">Download</a></div>
+
+
+            </div>
+        </div>
+
+
+        <div class="row-item">
+            <div class="kids">
+
+                <div class="column "><img class="imgbook " src="https://cdn.asaha.com/assets/thumbs/648/648f41466bce074a3ed762eab9d085c2.jpg"></div>
+                <div class="column "><img class="imgbook " src="https://cdn.asaha.com/assets/thumbs/0e3/0e33779435d596801d49db8274d95118.jpg "></div>
+                <div class="column "><img class="imgbook " src="https://cdn.asaha.com/assets/thumbs/be5/be5d062cbba8f9ecd49fe882fa67cddd.jpg "></div>
+                <div class="column "><img class="imgbook " src="https://covers.openlibrary.org/w/id/8311358-M.jpg "></div>
+                <div class="column "><img class="imgbook " src="https://covers.openlibrary.org/w/id/1269561-M.jpg "></div>
+                <div class="column "><img class="imgbook " src="https://covers.openlibrary.org/w/id/10195695-M.jpg "></div>
+
+
+            </div>
+            <div class="btn ">
+                <div><a href="static/PDF/Big Book of the Cosmos for Kids. Children 's Books and Bedtime Stories For Kids Ages 3-8 for Good Morals ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/Short Stories For Children - ArvindGuptaToys Books Gallery ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/The Top 50 Questions Kids Ask (Pre-K through 2nd Grade)_ The Best Answers to the Toughest, Smartest, and Most Awkward Questions Kids Always Ask ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="/downloadBook.html" class="button">Download</a></div>
+                <div><a href="/downloadBook.html" class="button">Download</a></div>
+                <div><a href="/downloadBook.html" class="button">Download</a></div>
+
+
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="romans">
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/243/243ca2609600190cc6b8547a36754304.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://cdn.asaha.com/assets/thumbs/18c/18cca389d26f964948dd6997853fbfa8.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/3033885-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/6419199-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/8231823-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/9346490-M.jpg"></div>
+
+            </div>
+            <div class="btn">
+                <div><a href="static/PDF/Hard Man (Mills & Boon Romance) ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="static/PDF/Mills & Boon ( PDFDrive ).pdf" class="button">Download</a></div>
+                <div><a href="/downloadBook.html" class="button">Download</a></div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+
+
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="bio">
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/10131082-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/2560515-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/8289067-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/5893294-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/9230254-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/8242347-M.jpg"></div>
+
+            </div>
+            <div class="btn">
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+
+
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="art">
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/7879121-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/8410349-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/8236963-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/4703873-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/3026795-M.jpg"></div>
+                <div class="column"><img class="imgbook" src="https://covers.openlibrary.org/b/id/4898540-M.jpg"></div>
+
+            </div>
+            <div class="btn">
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+                <div class="button">Download</div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</body>
